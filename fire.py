@@ -29,7 +29,7 @@ def exit_app():
     root.destroy()
 
 def clos(event=None):
-    key = "212"
+    key = "1"
     if entry.get() == key:
         exit_app()
     else:
